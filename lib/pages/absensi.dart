@@ -125,10 +125,10 @@ class Employee {
 
 class MyApp extends StatelessWidget {
   final List<Employee> employees = [
-    // Employee(name: 'John Doe'),
-    // Employee(name: 'Jane Smith'),
-    // Employee(name: 'Michael Johnson'),
-    // Employee(name: 'Emily Davis'),
+    Employee(name: 'John Doe'),
+    Employee(name: 'Jane Smith'),
+    Employee(name: 'Michael Johnson'),
+    Employee(name: 'Emily Davis'),
   ];
 
   @override
